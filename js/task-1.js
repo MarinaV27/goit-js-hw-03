@@ -1,5 +1,5 @@
 function slugify(title) {
-    return title.slug
+    return title.slug()
 }
 
 
