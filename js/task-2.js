@@ -1,29 +1,11 @@
 function makeArray(firstArray, secondArray, maxLength) {
    const newArr = [];
-   //const filterArrayIndex = firstArray.length-1;
-   //const firstArrayElement = firstArray[filterArrayIndex];
-   //const secondArrayIndex = secondArray.length-1;
-   //const secondArrayElement = secondArray[secondArrayIndex];
+   
 
-  for (let i = 0; i < firstArray.length; i++) { if  maxLength < firstArrayElement.length { return 
-    newArr.slice(0,maxLengt)
-  }return
-    newArr = firstArray[i];
+  return newArr.concat(firstArray, secondArray,).slice(0, maxLength)
     
   }
     
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)); // ["Mango", "Poly", "Ajax"]
@@ -34,10 +16,3 @@ console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)); // ["Ear
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)); // []
 
 
-//Напиши функцію під назвою makeArray, яка приймає три параметри: firstArray (масив), secondArray (масив) і maxLength (число). Функція повинна створювати новий масив, який містить усі елементи з firstArray, а потім усі елементи з secondArray.
-
-//Якщо кількість елементів у новому масиві перевищує maxLength, функція повинна повернути копію масиву з довжиною maxLength елементів.
-//В іншому випадку функція повинна повернути весь новий масив.
-
-
-//Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
